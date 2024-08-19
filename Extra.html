@@ -1,0 +1,123 @@
+<!-- This is the Final project for ALEXIS MARTINEZ AT UAT FOR MS587 -->
+
+<!DOCTYPE html>
+<html>
+    <!-- Head Section -->
+    <head>
+        <title>Final Project of Alexis Martinez for MS!</title>
+        
+        <!-- Link to the CSS file for custom styles -->
+        <meta charset="UTF-8">
+        
+        <!-- Set the viewport to the device width and scale for responsiveness -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Link to the custom CSS file using direct paths -->
+        <link rel="stylesheet" href="static/css/styles.css">
+        
+        <!-- Link to Google Fonts for custom font style -->
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <!--Reqirments for the homepage: An overview of the chosen topic, including an introduction and key points-->
+    </head>
+
+    <!-- Body Section -->
+    <body>
+        <!-- Background image with alt text and ID for styling -->
+        <img src="static/img/CFinalBackground1.png"alt="Background image" id="backing">
+        
+        <!-- Container for overlay text and buttons -->
+        <div class="container">
+            <div class="nav">
+                <!-- I want these to be the navigation menue items-->
+                <a href="index.html" class="button">Home</a>
+                <a href="About.html" class="button">About page</a>
+                <a href="Ethical_Considerations.html" class="button">Ethical Considerations Page</a>
+                <a href="Security_Measures.html" class="button">Security Measures Page</a>
+                <a href="Resources.html" class="button">Resources Page</a>
+                <a href="Extra.html" class="button">Extra</a>
+            </div>
+                <h1>Recorded Attacks </h1>
+                <h2>The Mirai Botnet Attack (2016)</h2>
+                <p class ="text-overlay">
+                    <b>What Happened?</b>
+                    <br>One of the most infamous IoT-related cyberattacks was the Mirai botnet attack in 2016. Hackers used a network of compromised IoT devices, including security cameras, routers, and DVRs, to launch massive Distributed Denial of Service (DDoS) attacks. The Mirai botnet was able to take down major websites like Twitter, Netflix, and Reddit by overwhelming them with traffic.
+                    <br><br>
+                    <b>How It Happened?</b>
+                    <br> The attackers exploited weak default passwords on IoT devices to take control of them and recruit them into the botnet. Once the devices were under their control, they were used to flood the target websites with traffic, causing them to crash.
+                    <br><br>
+                    <b>Significance:</b>
+                    <br> This attack demonstrated the scale at which IoT devices could be exploited, with millions of devices potentially being used in coordinated attacks. It also raised awareness about the importance of securing IoT devices, particularly those with default or easily guessable credentials.
+                    <br><br>
+                </p>
+                <h2>The Jeep Cherokee Hack (2015)</h2>
+                <p class ="text-overlay">
+                    <b>What Happened?</b>
+                    <br>In 2015, cybersecurity researchers Charlie Miller and Chris Valasek demonstrated a remote hack of a Jeep Cherokee, gaining control over the vehicle’s critical systems, including the engine, brakes, and steering.
+                    <br><br>
+                    <b>How It Happened?</b>
+                    <br>The researchers exploited a vulnerability in the car’s Uconnect infotainment system, which was connected to the Internet. By accessing the system remotely, they were able to take control of the vehicle’s CAN bus, which manages communication between various components of the car.
+                    <br><br>
+                    <b>Significance:</b>
+                    <br>This demonstration highlighted the dangers of connecting critical infrastructure, like automobiles, to the Internet without sufficient security measures. The potential for remote attacks on vehicles led to recalls and increased scrutiny of automotive cybersecurity practices.
+                    <br><br>
+                </p>
+                <h2>The Target Data Breach (2013)</h2>
+                <p class ="text-overlay">
+                    <b>What Happened?</b>
+                    <br>In 2013, Target suffered one of the largest data breaches in history, with the personal and financial information of 40 million customers being compromised. The breach began when hackers gained access to Target’s network through a third-party HVAC contractor.
+                    <br><br>
+                    <b>How It Happened?</b>
+                    <br>The attackers used a phishing email to trick an employee at the HVAC company into providing credentials. Once inside the contractor’s network, the hackers were able to move laterally to Target’s network, where they installed malware on point-of-sale systems to collect credit card information.
+                    <br><br>
+                    <b>Significance:</b>
+                    <br>This attack underscored the risks associated with IoT devices connected to critical networks, especially when third-party vendors are involved. It also highlighted the importance of securing supply chains and third-party relationships in the context of IoT.
+                    <br><br>
+                </p>
+                <h2>The Baby Monitor Hack (2014)</h2>
+                <p class ="text-overlay">
+                    <b>What Happened?</b>
+                    <br>In 2014, a couple in Houston, Texas, discovered that their baby monitor had been hacked when they heard a voice coming from the device, shouting vulgarities at their child. The hacker had accessed the monitor’s camera and microphone, allowing them to spy on the family and harass them.
+                    <br><br>
+                    <b>How It Happened?</b>
+                    <br>The baby monitor was connected to the family’s Wi-Fi network and had weak security settings, including a default password that the hackers exploited to gain access.
+                    <br><br>
+                    <b>Significance:</b>
+                    <br>This incident demonstrated the risks of using unsecured IoT devices in the home, particularly those with cameras and microphones. It also raised awareness about the need for consumers to change default passwords and secure their home networks.
+                    <br><br>
+                </p>
+                <h2>The Smart Thermostat Ransomware Attack (2016)</h2>
+                <p class ="text-overlay">
+                    <b>What Happened?</b>
+                    <br>In 2016, researchers demonstrated a proof-of-concept attack in which they infected a smart thermostat with ransomware. Once the thermostat was compromised, it locked the temperature settings and demanded payment to unlock the device.
+                    <br><br>
+                    <b>How It Happened?</b>
+                    <br>The researchers exploited a vulnerability in the thermostat’s software, which allowed them to install ransomware remotely. This attack showed how even simple IoT devices could be targeted for financial gain.
+                    <br><br>
+                    <b>Significance:</b>
+                    <br>This demonstration highlighted the potential for IoT devices to be used in ransomware attacks, where control over basic utilities could be held hostage. It also pointed to the need for stronger security measures in IoT devices that control essential services like heating and cooling.
+                    <br><br>
+                </p>
+                <h2>The Casino Fish Tank Hack (2017)</h2>
+                <p class ="text-overlay">
+                    <b>What Happened?</b>
+                    <br>In 2017, hackers infiltrated the network of a North American casino through a smart fish tank. The fish tank was equipped with sensors that regulated temperature, food, and cleanliness, all connected to the Internet.
+                    <br><br>
+                    <b>How It Happened?</b>
+                    <br>The hackers exploited a vulnerability in the fish tank’s connected system to gain access to the casino’s broader network. Once inside, they were able to extract 10 gigabytes of data from the casino’s database and transfer it to a remote server.
+                    <br><br>
+                    <b>Significance:</b>
+                    <br>This attack demonstrated the risk of seemingly innocuous IoT devices being used as entry points into highly secure networks. It also highlighted the importance of segmenting networks and securing all connected devices, no matter how trivial they may seem.
+                    <br><br>
+                </p>
+                <h2> Other Pages:</h2>
+                <a class="Page_link" href="About.html" > Click here to Learn more about the basics of  Social Engineering, and IoT devices.</a>
+                <br>
+                <a class="Page_link" href ="Ethical_Considerations.html"> Click here to learn more about the ethical considerations and who should be held accountable for securing these products.</a>
+                <br>
+                <a class="Page_link" href="Security_Measures.html"> Click here to learn about the Security Measures we can take to better accomodate these discrepancies.</a>
+                <br>
+                <a class="Page_link" href = "Resources.html"> To look at our resources please click here.</a>
+                
+        </div>
+    </body>
+</html>
